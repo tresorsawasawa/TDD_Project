@@ -6,7 +6,8 @@ class Solver
 
     number * factorial(number - 1)
   end
-end
 
-testing = Solver.new
-testing.factorial(-5)
+  def reverse(str)
+    str.reverse
+  end
+end
