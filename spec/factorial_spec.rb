@@ -2,7 +2,7 @@ require_relative '../solver'
 
 describe Solver do
   context 'When testing the factorial method' do
-    it 'should raise an exception if the given number is negaative' do
+    it 'should raise an exception if the given number is negative' do
       solver = Solver.new
       expect { solver.factorial(-5) }.to raise_error(RuntimeError)
     end
